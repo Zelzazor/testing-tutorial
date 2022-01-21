@@ -4,7 +4,8 @@
   "description": "This is my self-learning process of making TDD in my future applications.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Zelzazor/testing-tutorial/issues"
   },
-  "homepage": "https://github.com/Zelzazor/testing-tutorial#readme"
+  "homepage": "https://github.com/Zelzazor/testing-tutorial#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
 }
